@@ -69,7 +69,7 @@ void loop() {
         sumX += array_X[i];
     }
 
-  //Updates the Servo accordingly
+  // Updates the Servo accordingly
   updateServo(sumX/8, sumY/8);
 }
 
