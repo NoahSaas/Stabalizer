@@ -98,8 +98,8 @@ void read_angle() {
 // Function to control the servo's rotations based on the current angle
 void updateServo(int x, int y) {
   if (output_Z > 0){
-    servo_X.write(x + 90);
-    servo_Y.write(y + 90);
+    servo_X.write(-x + 90);
+    servo_Y.write(-y + 90);
   }
 }
 
